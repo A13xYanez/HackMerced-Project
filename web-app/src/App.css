@@ -52,4 +52,17 @@ a {
 
 
 /* Header Section */
+.header {
+  width: 100vw;
+  min-height: 500px;
+  grid-row: 1 / 2;
+  background-image: url(./Images/crops.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 80%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
