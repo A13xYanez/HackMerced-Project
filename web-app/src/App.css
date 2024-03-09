@@ -19,6 +19,7 @@ a {
   align-items: center;
   height: 65px;
   box-shadow: 0 2px 5px rgb(152, 152, 153);
+  background-color: white;
 }
 
 .navbar--image {
@@ -66,3 +67,32 @@ a {
   margin-bottom: 3rem;
 }
 
+
+
+/* Main Section */
+.main--title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main--title h1 {
+  font-size: 2.5em;
+  margin-right: 20%;
+}
+
+.main--title button {
+  background-color: #F4CE14;
+  color: black;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.main--title button:hover {
+  background-color: #fddf44;
+  transition: 0.5s;
+}
