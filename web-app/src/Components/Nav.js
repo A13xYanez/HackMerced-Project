@@ -7,7 +7,7 @@ export default function Nav() {
             <ul className='navbar--links'>
                 <li><a href='/'>Home</a></li>
                 <li><a href='./'>Learn More</a></li>
-                <li><a href='./'>Play</a></li>
+                <li><a href='./'>Simulation</a></li>
             </ul>
         </nav>
     )

@@ -77,7 +77,7 @@ a {
 }
 
 .main--title h1 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin-right: 20%;
 }
 
@@ -95,4 +95,28 @@ a {
 .main--title button:hover {
   background-color: #fddf44;
   transition: 0.5s;
+}
+
+.main--details {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.details--polyculture {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+}
+
+.details--polyculture p {
+  width: 400px;
+  height: 400px;
+  border: 2px solid;
+}
+
+.details--polyculture img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
 }
