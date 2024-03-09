@@ -8,13 +8,24 @@ export default function Main() {
                 <a href='./'><button>Learn More</button></a>
             </section>
             <section className='main--details'>
-                <article className='details--polyculture'>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
+                <article className='details--cards'>
+                    <div>
+                        <h2>Polyculture</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
                     <img src='../Images/polyculture.jpg' />
                 </article>
-
+                <article className='details--cards'>
+                    <img src='../Images/monoculture.jpg' />
+                    <div>
+                        <h2>Monoculture</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </article>
             </section>
         </main>
     )
