@@ -3,7 +3,7 @@ import React from 'react'
 export default function Nav() {
     return (
         <nav className='navbar'>
-            <h1 className='navbar--image'>Logo</h1>
+            <img className='navbar--image' src={require('../Images/logo.png')} />
             <ul className='navbar--links'>
                 <li><a href='/'>Home</a></li>
                 <li><a href='./'>Learn More</a></li>

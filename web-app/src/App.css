@@ -23,11 +23,13 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1001;
 }
 
 .navbar--image {
   height: 100%;
-  margin-right: 6px;
+  margin-left: 8px;
+  object-fit: cover;
 }
 
 .navbar--links {
@@ -136,5 +138,21 @@ a {
   width: 400px;
   height: 400px;
   margin-bottom: 1.5rem;
-  object-fit: contain;
+  object-fit: cover;
+}
+
+
+
+/* Effects */
+.details--hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
