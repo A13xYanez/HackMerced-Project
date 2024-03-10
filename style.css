@@ -227,11 +227,16 @@
   }
 
   .main--cropCard {
-    height: 475px;
+    height: 500px;
     width: 400px;
     margin-top: 2rem;
     border-radius: 6px;
     box-shadow: 0 2px 5px rgb(152, 152, 153);
+  }
+
+  .main--cropCard p, h3 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
   .cropImage {
@@ -304,4 +309,21 @@
 
 .workcited{
   margin-top: 5rem;
+}
+
+
+
+.title {
+  align-items: center;
+  width: 59%;
+  height: auto;
+  margin: auto;
+  padding: 1rem;
+  text-shadow: 1px 1px 4px black;
+  
+}
+
+.title h1 {
+  font-size: 5rem;
+  color: white;
 }
