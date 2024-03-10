@@ -87,7 +87,7 @@ a {
 }
 
 .main--title button {
-  background-color: #F4CE14;
+  background-color: #4abb2b;
   color: black;
   border-radius: 12px;
   border: none;
@@ -98,7 +98,7 @@ a {
 }
 
 .main--title button:hover {
-  background-color: #fddf44;
+  background-color: #63df44;
   transition: 0.5s;
 }
 
@@ -120,7 +120,7 @@ a {
 }
 
 .details--cards div {
-  width: 600px;
+  width: 800px;
   height: 400px;
 }
 
@@ -139,20 +139,4 @@ a {
   height: 400px;
   margin-bottom: 1.5rem;
   object-fit: cover;
-}
-
-
-
-/* Effects */
-.details--hidden {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-100%);
-  transition: all 1s;
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
 }
