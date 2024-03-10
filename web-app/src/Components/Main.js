@@ -8,7 +8,7 @@ export default function Main() {
                 <a href='./'><button>Learn More</button></a>
             </section>
             <section className='main--details'>
-                <article className='details--cards details--hidden'>
+                <article className='details--cards'>
                     <div>
                         <h2>Polyculture</h2>
                         <p>
@@ -17,7 +17,7 @@ export default function Main() {
                     </div>
                     <img src={require('../Images/polyculture.jpg')} />
                 </article>
-                <article className='details--cards details--hidden'>
+                <article className='details--cards'>
                     <img src={require('../Images/monoculture.jpg')} />
                     <div>
                         <h2>Monoculture</h2>

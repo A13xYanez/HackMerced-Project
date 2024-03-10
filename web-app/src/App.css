@@ -126,7 +126,6 @@ a {
 
 .details--cards div p {
   font-size: 2.5rem;
-  
 }
 
 .details--cards div p {
@@ -168,7 +167,7 @@ a {
 .footer--image {
   height: 250px;
   width: 250px;
-  margin-left: 8px;
+  margin-left: 20px;
   margin-right: 15%;
   object-fit: cover;
 }
