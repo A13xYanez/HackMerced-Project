@@ -116,7 +116,7 @@ a {
 }
 
 .details--cards:last-child {
-  border-bottom: none;
+  border-bottom: 2px solid black;
 }
 
 .details--cards div {
@@ -139,4 +139,62 @@ a {
   height: 400px;
   margin-bottom: 1.5rem;
   object-fit: cover;
+}
+
+.main--mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.main--mission p {
+  font-size: 1.25rem;
+}
+
+
+
+/* Footer Section */
+.footer {
+  display: flex;
+}
+
+.footer--image {
+  height: 250px;
+  width: 250px;
+  margin-left: 8px;
+  margin-right: 15%;
+  object-fit: cover;
+}
+
+.footer--links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.footer--links ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.footer--links ul li {
+  margin-bottom: 0.75rem;
+}
+
+.footer--links ul li a {
+  color: black;
+}
+
+.footer--links li a:hover {
+  color: rgb(79, 79, 178);
+  text-decoration: underline solid rgb(79, 79, 178);
+  transition: 0.5s;
 }

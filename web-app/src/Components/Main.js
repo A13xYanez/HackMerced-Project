@@ -27,6 +27,12 @@ export default function Main() {
                     </div>
                 </article>
             </section>
+            <section className='main--mission'>
+                <h1>Mission Statement</h1>
+                <p>
+                    Our mission with this simulation is to teach the world about the complexities and rewards of sustainable agriculture, teaching them the nuances of crop cultivation, seasonal farming practices, the ecological impacts of their farming choices, and optimizing their profits. Through the simple yet educational mechanics, we aim to highlight the importance of the differences between polyculture and monoculture, demonstrating how diverse crop planting can lead to healthier soil and more sustainable farming outcomes in the long term. We also intend to teach players about how to optimize the amount of money they are making through agriculture with the simple resource-management aspect of our simulation.  Our goal is to foster a better understanding and appreciation for real-world agricultural challenges, encouraging players to consider the environmental and ecological consequences of their farming strategies, thereby promoting more sustainable practices both in-simulation and in the real world.
+                </p>
+            </section>
         </main>
     )
 }
