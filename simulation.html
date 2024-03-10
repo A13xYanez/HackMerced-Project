@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advancing Agriculture</title>
-</head>
-<body>
-    <object id="UnityObject" classid="clsid:444785F1-DE89-4295-863A-D46C3A781394" width="420" height="750" codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
-        <param name="unity3d" value="WebPlayer.unity3d" />
-        <embed id="UnityEmbed" src="mlpbeta/mlpbeta.unity3d" width="420" height="750" type="application/vnd.unity" pluginspage="http://www.unity3d.com/unity-web-player-2.x" />
-    </object>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advancing Agriculture</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Nav Section -->
+        <nav class='navbar'>
+            <img class='navbar--image' src='./Images/logo.png' />
+            <h2 onClick="openSideBar()"">Game Controls</h2>
+            <ul class='navbar--links'>
+                <li><a href='./index.html'>Home</a></li>
+                <li><a href='./learmMore.html'>Learn More</a></li>
+                <li><a href='./simulation.html'>Simulation</a></li>
+            </ul>
+        </nav>
+
+        <!-- Game Section -->
+        <iframe class="simulation" frameborder="0" src="https://itch.io/embed-upload/9901225?color=333333" allowfullscreen=""><a href="https://richiejr.itch.io/hackathon">Play Hackathon on itch.io</a></iframe>
+
+        <!-- Controls -->
+        <div class="controls" id="controls">
+            <div class="barContent">
+                <div class="barHeader">
+                    <h1>Controls</h1>
+                    <p onclick="closeSideBar()">X</p>
+                </div>
+                <div>
+                    <h1>
+                        Click To Interact
+                    </h1>
+                    <h1>
+                        ESC Key To Exit Option
+                    </h1>
+                    <h1>
+                        Move Mouse Up and Down To Move Camera
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
 </html>

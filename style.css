@@ -241,3 +241,63 @@
     width: 100%;
     object-fit: cover;
   }
+
+
+
+/* Simulation Page */
+.simulation {
+  margin-top: 4rem;
+  width: 100vw;
+  height: 800px;
+}
+
+.navbar h2 {
+  margin-left: 1.5rem;
+}
+
+.controls {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: aliceblue;
+  visibility: hidden;
+  z-index: 1003;
+}
+
+.openBar {
+  visibility: visible;
+  transform: translateX(-100%);
+  animation: slideRight 0.3s linear forwards ;
+}
+
+@keyframes slideRight {
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+.closeBar {
+  visibility: hidden;
+}
+
+.barHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.barHeader p {
+  cursor: pointer;
+  margin-top: 7px;
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+.barHeader p:hover {
+  color: red;
+}
+
+.barContent {
+  padding: 30px 16px;
+}
