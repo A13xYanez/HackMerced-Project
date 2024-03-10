@@ -250,9 +250,6 @@
 
 
 /* Simulation Page */
-.simulationMain {
-  overflow: hidden;
-}
 .simulation {
   width: 100vw;
   height: 800px;
